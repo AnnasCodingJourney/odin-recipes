@@ -1,0 +1,47 @@
+/* Any heading will have these colors and is aligned in the center */
+
+h1{
+    color: rosybrown;
+    background-color: azure;
+    text-align: center;
+}
+
+/* Buttons inside the list, which contain the links, are centered and are bold with a background color */
+
+.centerlist .button{
+    font-size: 900;
+    font-weight: bold;
+    background-color: azure;
+    text-align: center;
+}
+
+/* text, which is the description of the page is styled in this color and centered */
+
+.text{
+    font-size: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: rosybrown;
+    text-align: center;
+}
+
+/* images are centered */
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* centering the list */
+
+div.container{
+    text-align: center;
+}
+
+ul.centerlist{
+    display: inline-block;
+    text-align: left;
+}
+
+
