@@ -7,8 +7,6 @@ h1{
     background-color: beige;
     text-align: center;
     font-family: 'Apple Chancery', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 /* Buttons inside the list, which contain the links, are styled like this: */
@@ -19,6 +17,7 @@ button a:hover{
     color: black;
     text-align: left;
     font-size: x-large;
+    margin-left: 200px;
 }
 
 /* styling the text, which is the description of the page and recipes */
@@ -30,21 +29,20 @@ button a:hover{
     color: black;
     text-align: left;
     margin-bottom: 20px;
-    margin-left: 200px;
 }
 
 /* positioning the pictures  */
 
 img{
     display: block;
-    margin: 75px 300px 25px;
+    margin: 75px 30px ;
    
 }
 
 /* content describes the content that can be found, thus the list of recipes */
 
 .content{
-    position:relative
+    position:relative;
 }
 
 /* styling the list with the recipes */
@@ -52,7 +50,7 @@ img{
 ul{
     position:absolute;
     top: 100px;
-    right:300px;
+    right:0px;
     font-size: large;
 }
 
