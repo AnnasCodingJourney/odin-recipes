@@ -1,47 +1,64 @@
-/* Any heading will have these colors and is aligned in the center */
+/* styling the heading */
 
 h1{
-    color: rosybrown;
-    background-color: azure;
+    box-sizing: border-box;
+    border: 5px solid black;
+    color: black;
+    background-color: beige;
     text-align: center;
+    font-family: 'Apple Chancery', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-/* Buttons inside the list, which contain the links, are centered and are bold with a background color */
+/* Buttons inside the list, which contain the links, are styled like this: */
 
-.centerlist .button{
-    font-size: 900;
+button a:hover{
     font-weight: bold;
-    background-color: azure;
-    text-align: center;
+    background-color: beige;
+    color: black;
+    text-align: left;
+    font-size: x-large;
 }
 
-/* text, which is the description of the page is styled in this color and centered */
+/* styling the text, which is the description of the page and recipes */
 
 .text{
-    font-size: 800;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
-    color: rosybrown;
-    text-align: center;
+    color: black;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 200px;
 }
 
-/* images are centered */
+/* positioning the pictures  */
 
 img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin: 75px 300px 25px;
+   
 }
 
-/* centering the list */
+/* content describes the content that can be found, thus the list of recipes */
 
-div.container{
-    text-align: center;
+.content{
+    position:relative
 }
 
-ul.centerlist{
-    display: inline-block;
-    text-align: left;
+/* styling the list with the recipes */
+
+ul{
+    position:absolute;
+    top: 100px;
+    right:300px;
+    font-size: large;
 }
 
+/* styling the links */
+
+a{
+    font-size: large;
+}
 
